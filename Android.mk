@@ -19,13 +19,10 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := messaging
 LOCAL_SRC_FILES := messaging.apk
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
-$(shell mkdir -p $(TARGET_OUT_APPS)/messaging/lib/arm)
-$(shell cp $(LOCAL_PATH)/lib/armeabi-v7a/libframesequence.so $(TARGET_OUT_APPS)/messaging/lib/arm/libframesequence.so)
-$(shell cp $(LOCAL_PATH)/lib/armeabi-v7a/libgiftranscode.so $(TARGET_OUT_APPS)/messaging/lib/arm/libgiftranscode.so)
-ALL_DEFAULT_INSTALLED_MODULES += \
-	$(TARGET_OUT_APPS)/messaging/lib/arm/libframesequence.so \
-	$(TARGET_OUT_APPS)/messaging/lib/arm/libgiftranscode.so
+LOCAL_PREBUILT_JNI_LIBS_arm := \
+	@lib/armeabi-v7a/libframesequence.so \
+	@lib/armeabi-v7a/libgiftranscode.so
+
 include $(BUILD_PREBUILT)
