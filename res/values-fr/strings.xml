@@ -516,4 +516,5 @@
     <string name="conversation_creation_failure" msgid="8597624563218724441">"Impossible de lancer la conversation."</string>
     <string name="link_display_format" msgid="8700344957248709584">"<xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)"</string>
     <string name="selected_sim_content_message" msgid="4504796674843354505">"<xliff:g id="SELECTED_SIM">%s</xliff:g> sélectionnée"</string>
+    <string name="swipe_deletes_conversation_text">Un glissement supprimera la conversation</string>
 </resources>
