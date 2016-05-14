@@ -17,11 +17,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strip unicode -->
+  <string name="unicode_stripping_pref_title">ユニコードを取り除く</string>
   <!-- Lookup -->
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
   <!-- QM Dialog box buttons -->
   <!-- Hint text in message body field when keyboard is exposed -->
   <!-- QM Toast -->
+  <string name="toast_sending_message">メッセージを送信しています...</string>
   <!-- QM - Quick reply -->
+  <string name="qm_quick_reply">クイック返信</string>
+  <string name="send">送信</string>
 </resources>
