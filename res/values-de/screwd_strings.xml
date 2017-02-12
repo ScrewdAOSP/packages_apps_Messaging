@@ -17,5 +17,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Swipe to delete conversation -->
+  <string name="swipe_to_delete_conversation_pref_title">Zum Löschen wischen</string>
+  <string name="swipe_to_delete_conversation_pref_summary">Wische nach rechts, um eine Konversation zu löschen</string>
   <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Wähle Bilder oder Videos von diesem Gerät</string>
+  <string name="mediapicker_audioListChooserDescription">Wähle Audio-Dateien von diesem Gerät</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Kann Video nicht zuordnen. Max. Nachrichtengröße überschritten.</string>
+  <string name="mediapicker_audio_list_title">Audio wählen</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Der Ton ist ausgewählt.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Der Ton ist nicht ausgewählt.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> ausgewählt</string>
 </resources>
