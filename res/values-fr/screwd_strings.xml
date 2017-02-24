@@ -27,4 +27,5 @@
   <string name="mediapicker_audio_list_item_selected_content_description">Le fichier audio est sélectionné.</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">Le fichier audio n\'est pas sélectionné.</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d </xliff:g> sélectionnés</string>
+  <!-- Shortcuts -->
 </resources>

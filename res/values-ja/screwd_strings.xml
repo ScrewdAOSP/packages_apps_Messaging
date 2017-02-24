@@ -27,4 +27,5 @@
   <string name="mediapicker_audio_list_item_selected_content_description">音声ファイルが選択されています。</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">音声ファイルが選択されていません。</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> 選択されています</string>
+  <!-- Shortcuts -->
 </resources>
