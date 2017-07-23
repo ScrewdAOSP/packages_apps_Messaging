@@ -28,4 +28,5 @@
   <string name="mediapicker_audio_list_item_unselected_content_description">De audio is niet geselecteerd.</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="Alarms">%d</xliff:g> geselecteerd</string>
   <!-- Shortcuts -->
+  <string name="shortcuts_compose_new">Nieuw bericht</string>
 </resources>
